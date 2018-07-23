@@ -1,0 +1,31 @@
+
+
+<div class="row">
+
+  <div class="col-md-5">
+    <h1>  Date:  </h1>
+    <h2> {{ date | date }} </h2>
+    <hr> 
+
+    <h2> Use of currency Pipe </h2>
+    <h3> {{ amount | currency:'INR'}} </h3>
+    <hr> 
+    <h2> Use of custom Pipe </h2>
+    <h3> {{ name | greet }} </h3>
+  
+  </div>
+  <div class="col-md-5">
+    <b> Time: </b> {{ time }}
+
+    <hr> 
+    <h2> Mouse Events </h2>
+    <h2> Mouse X : {{ mouseData.X }} </h2>
+    <h2> Mouse Y : {{ mouseData.Y }} </h2>
+    <hr> 
+    <h2> Key Board </h2>
+    <h2> Key Events : {{ key_code  }} </h2>
+  </div>
+
+ 
+
+</div>

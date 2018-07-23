@@ -1,0 +1,18 @@
+
+
+.nav-enjumbled {
+  font-size: 24px; 
+  padding: 20px; 
+}
+
+.nav-enjumbled li a {
+  text-decoration: none;
+  color: #98ff45;
+
+}
+
+.nav-enjumbled li a:hover {
+  text-decoration: none;
+  color: #ff4598;
+  
+}
